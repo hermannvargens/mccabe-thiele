@@ -1,33 +1,30 @@
-Este repositório reúne materiais didáticos e computacionais destinados ao ensino do método de McCabe-Thiele para o projeto de colunas de destilação binária. O conteúdo integra fundamentos de engenharia química à computação científica, utilizando a linguagem Python para modelagem, simulação e análise de sensibilidade de processos de separação.
-Estrutura do Repositório
-1. Introdução ao Python para Engenharia
+# Projeto de Destilação Binária: Implementação e Análise pelo Método de McCabe-Thiele
 
-Arquivo destinado à revisão técnica de sintaxe, tipos de dados e manipulação de vetores em ambiente Google Colaboratory. O foco é nivelar o conhecimento em programação necessário para aplicações em engenharia química.
+Este repositório apresenta um conjunto de ferramentas computacionais voltadas ao ensino e à simulação de colunas de destilação binária utilizando o método clássico de McCabe-Thiele. O conteúdo abrange desde os fundamentos da linguagem Python aplicada à engenharia até a disponibilização de uma interface interativa para análise de sensibilidade paramétrica.
 
-    Acessar Introdução ao Python
+## Conteúdo do Repositório
 
-2. Implementação do Diagrama de McCabe-Thiele
+### 1. Fundamentos de Programação para Engenharia Química
+Este módulo consiste em uma introdução técnica à linguagem Python, com foco em manipulação de variáveis, estruturas de dados (NumPy arrays) e lógica de programação voltada à resolução de problemas de balanço de massa e energia.
+* **Acesso ao Notebook:** [Introdução ao Python via Google Colab](https://github.com/hermannvargens/mccabe-thiele/blob/cccb593b17fdc04a9386f07c5e82b82f2fd75ed7/Introdu%C3%A7%C3%A3o.ipynb)
 
-Notebook focado na construção algorítmica do diagrama. Aborda a definição de curvas de equilíbrio líquido-vapor (ELV), traçado das linhas de operação (LOR, LOE e Linha-q) e o método iterativo para contagem de estágios teóricos.
+### 2. Implementação do Diagrama de McCabe-Thiele
+Desenvolvimento passo a passo do algoritmo para construção das curvas de equilíbrio, retas de operação (Retificação, Esgotamento e Linha-q) e a contagem iterativa de estágios teóricos.
+* **Acesso ao Notebook:** [Construção do Diagrama via Google Colab](https://github.com/hermannvargens/mccabe-thiele/blob/cccb593b17fdc04a9386f07c5e82b82f2fd75ed7/Diagrama_McCabe_Thiele.ipynb)
 
-    Acessar Diagrama de McCabe-Thiele
+### 3. Simulador Interativo (Web Application)
+Interface desenvolvida em Streamlit para visualização dinâmica do impacto de variáveis de processo — como razão de refluxo, condição térmica da carga e volatilidade relativa — sobre o número de estágios teóricos e a localização do prato de alimentação.
+* **Acesso à Aplicação:** [Simulador McCabe-Thiele](https://mccabe-thiele-t5xsmi3ft82p6klj5npgzs.streamlit.app/)
 
-3. Simulador Interativo (Streamlit)
+### 4. Atividades Práticas e Exercícios de Análise
+Conjunto de estudos de caso propostos para que o estudante analise as consequências de alterações nos parâmetros de entrada, focando nos limites operacionais como refluxo mínimo e número mínimo de estágios (Equação de Fenske).
+* **Acesso aos Exercícios:** [Guia de Exercícios e Análise Paramétrica](https://github.com/hermannvargens/mccabe-thiele/blob/6ac1dcbdde03fa1ca3991cb2aabab6a59213693c/exercicios.md)
 
-Aplicação web para simulação em tempo real. Permite a alteração dinâmica de parâmetros como volatilidade relativa, razão de refluxo e estado térmico da carga, fornecendo instantaneamente o número de estágios, o prato de alimentação e as razões mínimas de operação.
+## Requisitos Técnicos
 
-    Acessar Simulador Online
+Para execução local dos scripts, recomenda-se a instalação das seguintes bibliotecas:
+* NumPy
+* Matplotlib
+* Streamlit
 
-4. Caderno de Exercícios e Estudos de Caso
-
-Documento contendo propostas práticas de análise. Os exercícios são estruturados para que o aluno utilize o simulador na identificação de gargalos operacionais e na otimização de variáveis de projeto.
-
-    Acessar Guia de Exercícios
-
-Tecnologias Utilizadas
-
-    Linguagem: Python 3.x
-
-    Bibliotecas: NumPy (cálculo numérico), Matplotlib (visualização de dados), Streamlit (interface web).
-
-    Ambientes: Google Colaboratory e Streamlit Cloud.# mccabe-thiele
+O desenvolvimento foi projetado para total compatibilidade com o ambiente Google Colaboratory, dispensando configurações locais complexas para finalidades didáticas.
