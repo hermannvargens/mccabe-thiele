@@ -22,7 +22,7 @@ zF = st.sidebar.slider("Fração de Alimentação ($z_F$)", float(xB + 0.01), fl
 st.sidebar.divider()
 
 R = st.sidebar.number_input("Razão de Refluxo ($R$)", 0.1, 50.0, 3.0, 0.1)
-q = st.sidebar.number_input("Fator de Carga ($q$)", -1.0, 2.0, 0.3, 0.1)
+q = st.sidebar.number_input("Fator de Carga ($q$)", -1.0, 10.0, 0.3, 0.1)
 alpha = st.sidebar.number_input("Volatilidade Relativa ($\\alpha$)", 1.1, 10.0, 2.5, 0.1)
 
 # --- LÓGICA DE CÁLCULO E PLOTAGEM ---
