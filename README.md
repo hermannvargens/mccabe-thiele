@@ -12,13 +12,13 @@ Este módulo consiste em uma introdução técnica à linguagem Python, com foco
 Desenvolvimento passo a passo do algoritmo para construção das curvas de equilíbrio, retas de operação (Retificação, Esgotamento e Linha-q) e a contagem iterativa de estágios teóricos.
 * **Acesso ao Notebook:** [Construção do Diagrama via Google Colab](https://github.com/hermannvargens/mccabe-thiele/blob/cccb593b17fdc04a9386f07c5e82b82f2fd75ed7/Diagrama_McCabe_Thiele.ipynb)
 
-### 3. Simulador Interativo (Web Application)
+### 3. Simulador Interativo 
 Interface desenvolvida em Streamlit para visualização dinâmica do impacto de variáveis de processo — como razão de refluxo, condição térmica da carga e volatilidade relativa — sobre o número de estágios teóricos e a localização do prato de alimentação.
 * **Acesso à Aplicação:** [Simulador McCabe-Thiele](https://mccabe-thiele-t5xsmi3ft82p6klj5npgzs.streamlit.app/)
 
 ### 4. Atividades Práticas e Exercícios de Análise
-Conjunto de estudos de caso propostos para que o estudante analise as consequências de alterações nos parâmetros de entrada, focando nos limites operacionais como refluxo mínimo e número mínimo de estágios (Equação de Fenske).
-* **Acesso aos Exercícios:** [Guia de Exercícios e Análise Paramétrica](https://github.com/hermannvargens/mccabe-thiele/blob/6ac1dcbdde03fa1ca3991cb2aabab6a59213693c/exercicios.md)
+Conjunto de estudos de caso propostos para que o estudante analise as consequências de alterações nos parâmetros de entrada, focando nos limites operacionais como refluxo mínimo e número mínimo de estágios .
+* **Acesso aos Exercícios:** [Lista de Exercícios](https://forms.office.com/r/X6DFCKkjib)
 
 ## Requisitos Técnicos
 
