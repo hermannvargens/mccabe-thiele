@@ -6,7 +6,7 @@ Este repositório apresenta um conjunto de ferramentas computacionais voltadas a
 
 ### 1. Fundamentos de Programação para Engenharia Química
 Este módulo consiste em uma introdução técnica à linguagem Python, com foco em manipulação de variáveis, estruturas de dados (NumPy arrays) e lógica de programação voltada à resolução de problemas de balanço de massa e energia.
-* **Acesso ao Notebook:** [Introdução ao Python via Google Colab](https://github.com/hermannvargens/mccabe-thiele/blob/cccb593b17fdc04a9386f07c5e82b82f2fd75ed7/Introdu%C3%A7%C3%A3o.ipynb)
+* **Acesso ao Notebook:** [Introdução ao Python via Google Colab](https://github.com/hermannvargens/mccabe-thiele/blob/main/Introdu%C3%A7%C3%A3o.ipynb)
 
 ### 2. Implementação do Diagrama de McCabe-Thiele
 Desenvolvimento passo a passo do algoritmo para construção das curvas de equilíbrio, retas de operação (Retificação, Esgotamento e Linha-q) e a contagem iterativa de estágios teóricos.
