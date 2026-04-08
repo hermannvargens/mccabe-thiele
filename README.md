@@ -10,7 +10,7 @@ Este módulo consiste em uma introdução técnica à linguagem Python, com foco
 
 ### 2. Implementação do Diagrama de McCabe-Thiele
 Desenvolvimento passo a passo do algoritmo para construção das curvas de equilíbrio, retas de operação (Retificação, Esgotamento e Linha-q) e a contagem iterativa de estágios teóricos.
-* **Acesso ao Notebook:** [Construção do Diagrama via Google Colab](https://github.com/hermannvargens/mccabe-thiele/blob/cccb593b17fdc04a9386f07c5e82b82f2fd75ed7/Diagrama_McCabe_Thiele.ipynb)
+* **Acesso ao Notebook:** [Construção do Diagrama via Google Colab](https://github.com/hermannvargens/mccabe-thiele/blob/main/Diagrama_McCabe_Thiele.ipynb)
 
 ### 3. Simulador Interativo 
 Interface desenvolvida em Streamlit para visualização dinâmica do impacto de variáveis de processo — como razão de refluxo, condição térmica da carga e volatilidade relativa — sobre o número de estágios teóricos e a localização do prato de alimentação.
