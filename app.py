@@ -55,7 +55,7 @@ x_curva = np.linspace(0, 1, 100)
 y_curva = (alpha * x_curva) / (1 + (alpha - 1) * x_curva)
 
 
-fig, ax = plt.subplots(figsize=(10, 10))
+fig, ax = plt.subplots(figsize=(6,6))
 
 ax.plot(x_curva, y_curva, 'b', label='Equilíbrio', linewidth=2)
 
