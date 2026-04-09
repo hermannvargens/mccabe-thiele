@@ -81,6 +81,25 @@ else:
 
     yi = a_lor * xi + b_lor
 
+# --- LINHAS VERTICAIS INDICATIVAS (MARCADORES NO EIXO X) ---
+
+# Linha para xD (Vermelha)
+ax.plot([xD, xD], [0, xD], color='red', linestyle=':', linewidth=1, alpha=0.7)
+
+# Linha para zF (Verde)
+ax.plot([zF, zF], [0, zF], color='green', linestyle=':', linewidth=1, alpha=0.7)
+
+# Linha para xB (Magenta)
+ax.plot([xB, xB], [0, xB], color='m', linestyle=':', linewidth=1, alpha=0.7)
+
+#Anotações
+
+ax.text(xD, -0.05, '$x_D$', color='red', ha='center', fontsize=10)
+ax.text(zF, -0.05, '$z_F$', color='green', ha='center', fontsize=10)
+ax.text(xB, -0.05, '$x_B$', color='m', ha='center', fontsize=10)
+
+
+
 
 # 3. Plotando as Linhas de Operação
 
