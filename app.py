@@ -173,7 +173,7 @@ col1, col2 = st.columns([3, 1])
 
 with col1:
 
-    st.pyplot(fig, use_container_width=True)
+    st.pyplot(fig, use_container_width=False)
 
 
 with col2:
