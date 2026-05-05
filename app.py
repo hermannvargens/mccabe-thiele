@@ -187,7 +187,7 @@ ax.legend(loc='upper left')
 
 # --- EXIBIÇÃO NO STREAMLIT ---
 
-col1, col2 = st.columns([2, 1])
+col1, col2 = st.columns([1, 1])
 
 
 with col1:
